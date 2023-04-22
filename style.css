@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+  align-content: center;
+  align-items: center;
+}
+
+body {
+  height: 1080px;
+  width: 100%;
+  background: rgb(82, 101, 97);
+  background: linear-gradient(
+    180deg,
+    rgba(82, 101, 97, 1) 0%,
+    rgba(14, 88, 147, 1) 50%,
+    rgba(0, 25, 31, 1) 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+  margin: 2rem;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  width: 24rem;
+  height: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.337);
+  border-radius: 5px;
+}
+
+/* #input-cc:focus {
+  border-bottom: 1px solid black;
+} */
+
+#img-check {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+#input-cc {
+  color: rgb(255, 255, 255);
+  background-color: rgba(240, 248, 255, 0);
+  text-align: center;
+  width: 19rem;
+  height: 3rem;
+  padding: 1rem;
+  font-size: 16pt;
+  outline: none;
+  border: none;
+}
+
+#input-cc::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+#input-cc::-webkit-outer-spin-button,
+#input-cc::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#img {
+  width: 2rem;
+  margin-left: 1rem;
+}
+
+p {
+  color: white;
+  font-size: 16;
+}
